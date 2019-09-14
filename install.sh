@@ -52,7 +52,7 @@ sudo apt-get install imagemagick
 mkdir code
 cd code
 git clone https://github.com/edwinvyp/exchange.git
-cd peatio
+cd exchange
 apt install ruby-bundler
 sudo apt-get install ruby-dev
 bundle config build.digest-sha3 --with-cflags="-Wno-format-security"
